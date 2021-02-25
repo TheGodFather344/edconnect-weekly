@@ -1,38 +1,39 @@
 <html>
     <header>
-    <h1>Project Explorer</h1>
-    <h2>One Stop Database for Academic Projects</h2>
-</header>
-<nav>
+     <h1>Project Explorer</h1>
+     <h2>One Stop Database for Academic Projects</h2>
+    </header>
+ <nav>
     <a href="/index.html">Home</a>
     <a href="/search.html">Projects</a>
     <a href="/login.html">Login</a>
     <a href="/register.html">Register</a>
     <a href="/createproject.html">Submit</a>
-</nav>
-<main>
-<section>
+ </nav>
+ <main>
+    <section>
         <h2>Project 1</h2>
-        <ul>
+          <ul>
             <li>Created By: Jide Abioye</li>
             <li>Date Created: 21/01/2021</li>
             <li>Last Updated: 05/02/2021</li>
-        </ul>
-        <section>
-    <form>
+          </ul>
+    </section>        
         <h2>Edit Project</h2>
-        Project Name:<br> <input type="text" name="name" /> 
+    <form>    
+  <section>
+        Project Name:<br> <input type="text" name="name" label="Project Name" /> 
         <br><br>
-        Project Abstract:<br> <textarea type="text" name="abstract"></textarea>
+        Project Abstract:<br> <textarea type="text" name="abstract" label="Project Abstract"></textarea>
         <br><br>
-        Authors:<br> <input type="text" name="abstract" />
+        Authors:<br> <input type="text" name="abstract" label="Authors" />
         <br><br>
-        Tag(s):<br> <input type="text" name="tags" />
+        Tag(s):<br> <input type="text" name="tags" label="Tag(s)" />
         <br><br>
-        UploadFile<br> <input type="file" name="projectFile" />
+        UploadFile<br> <input type="file" name="projectFile" label="UploadFile" />
         <br><br>
-        <input type="submit" value="Submit" />
+        <input type="submit" />
     </form>
-</section>    
-</main>
+  </section>    
+ </main>
 </html>
